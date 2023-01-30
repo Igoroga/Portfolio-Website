@@ -1435,7 +1435,7 @@ main {
 	margin-top: 100px;
 	grid-gap: 20px;
 	grid-template-columns: 1fr 1fr 1fr;
-	height: 1000px;
+	height: 650px;
 
 }
 
@@ -1456,13 +1456,13 @@ main {
 	margin-bottom: 11px;
 }
 
-.edu1::after{
-    position: absolute;
-    content: '';
-    margin-top: 160px;
-    width: 901px;
-    height: 2px;
-    background-color: #ececf0;	
+.edu1::after {
+	position: absolute;
+	content: '';
+	margin-top: 160px;
+	width: 901px;
+	height: 2px;
+	background-color: #ececf0;
 
 }
 
@@ -1477,17 +1477,17 @@ main {
 	margin-top: 28px;
 }
 
-.edu2::after{
-    position: absolute;
-    content: '';
-    margin-top: 160px;
-    width: 901px;
-    height: 2px;
-    background-color: #ececf0;	
+.edu2::after {
+	position: absolute;
+	content: '';
+	margin-top: 160px;
+	width: 901px;
+	height: 2px;
+	background-color: #ececf0;
 }
 
-.edu3::after{
-display: none;
+.edu3::after {
+	display: none;
 }
 
 .blockEdu1 {
@@ -1501,41 +1501,291 @@ display: none;
 
 
 .nameEdu {
-Font-family: Inter;
-font-weight: 700;
-Font-size: 18px;
-margin-bottom: 24px;
+	Font-family: Inter;
+	font-weight: 700;
+	Font-size: 18px;
+	margin-bottom: 24px;
 
 }
 
 .student {
 	Font-family: Inter;
-Font-style: Medium;
-Font-size: 16px;
+	Font-style: Medium;
+	Font-size: 16px;
 }
 
 .data {
 	Font-family: Inter;
-Font-style: Medium;
-text-align:right;
-margin-left: 20px;
-vertical-align:center;
-Font-size: 10px;
-background-color: #ffb400;
-padding: 3px;
-color:#fefefe;
+	Font-style: Medium;
+	text-align: right;
+	margin-left: 20px;
+	vertical-align: center;
+	Font-size: 10px;
+	background-color: #ffb400;
+	padding: 3px;
+	color: #fefefe;
 }
 
-.nameTextEdu{
+.nameTextEdu {
 	Font-family: Inter;
-font-weight: 700;
-Font-size: 18px;
-margin-bottom: 24px;
+	font-weight: 700;
+	Font-size: 18px;
+	margin-bottom: 24px;
 }
 
-.textEdu{
-Font-family: Inter;
-Font-style: Medium;
-Font-size: 15px;
-color: #767676;
+.textEdu {
+	Font-family: Inter;
+	Font-style: Medium;
+	Font-size: 15px;
+	color: #767676;
 }
+
+
+.allCenter8 {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 800px;
+}
+
+
+.centerContact {
+	display: flex;
+	justify-content: space-between;
+}
+
+.boxContact1 {
+	width: 570px;
+	height: 755px;
+}
+
+.boxContact2 {
+	width: 370px;
+	height: 755px;
+
+}
+
+.article8 {
+	Font-family: Inter;
+	Font-style: Medium;
+	Font-size: 28px;
+	margin-bottom: 50px;
+}
+
+.conInf {
+	display: block;
+	background-color: white;
+}
+
+lab {
+	display: block;
+	width: 100px;
+	Font-family: Inter;
+	Font-style: Medium;
+	Font-size: 18px;
+	color: #767676;
+
+}
+
+.inDiv1 {
+	padding-top: 25px;
+	display: block;
+	width: 333px;
+}
+
+.inDiv {
+	display: block;
+	width: 333px;
+	margin-left: 25px;
+}
+
+.inputLow {
+	Font-family: Inter;
+	Font-style: Medium;
+	Font-size: 25px;
+	color: #767676;
+	display: block;
+	background-color: #F0F0F6;
+	border: #F0F0F6;
+	width: 520px;
+	height: 50px;
+	margin: auto;
+	margin-bottom: 25px;
+	margin-top: 8px;
+}
+
+.inputhi {
+	Font-family: Inter;
+	Font-style: Medium;
+	Font-size: 15px;
+	Font-family: Inter;
+	Font-style: Medium;
+	Font-size: 25px;
+	color: #767676;
+	display: block;
+	background-color: #F0F0F6;
+	border: #F0F0F6;
+	width: 520px;
+	height: 180px;
+	margin: auto;
+	margin-bottom: 25px;
+	margin-top: 8px;
+}
+
+.subBut {
+	border: none;
+	background-color: #FFB400;
+	margin-left: 25px;
+	margin-top: 12px;
+	Font-family: Inter;
+	font-weight: 500;
+	Font-size: 15px;
+	padding: 10px;
+	border-radius: 2px;
+	color: rgb(48, 48, 48);
+}
+
+.blockRightContact {
+	width: 370px;
+	height: 210px;
+	background-color: white;
+	position: relative;
+}
+
+.iconContact {
+	position: relative;
+	top: 25px;
+	width: 40px;
+	height: 40px;
+	background-image: url(/img/iconContact1.png);
+	background-repeat: no-repeat;
+	background-color: #FFB400;
+	border-radius: 50%;
+	background-position: 10px;
+	margin: auto;
+}
+
+.textConatact {
+	Font-family: Inter;
+	Font-style: Medium;
+	Font-size: 18px;
+	margin-left: 20px;
+}
+
+.textConatact1 {
+	margin-top: 50px;
+}
+
+.textConatact2 {
+	margin-top: 16px;
+}
+
+.textConatact3 {
+	margin-top: 16px;
+}
+
+.rightContact {
+	Font-family: Inter;
+	Font-style: Medium;
+	Font-size: 15px;
+	margin-left: auto;
+	text-align: center;
+}
+
+.rightContact1 {
+	margin-left: 160px;
+}
+
+.rightContact2 {
+	margin-left: 200px;
+}
+
+.rightContact3 {
+	margin-left: 199px;
+}
+
+.blockRightContact1 {
+	margin-top: 15px;
+}
+
+
+.iconContact2 {
+	position: relative;
+	top: 25px;
+	width: 40px;
+	height: 40px;
+	background-image: url(/img/iconContact2.png);
+	background-repeat: no-repeat;
+	background-color: #FFB400;
+	border-radius: 50%;
+	background-position: 10px;
+	margin: auto;
+}
+
+.iconContact3 {
+	position: relative;
+	top: 25px;
+	width: 40px;
+	height: 40px;
+	background-image: url(/img/iconContact3.png);
+	background-repeat: no-repeat;
+	background-color: #FFB400;
+	border-radius: 50%;
+	background-position: 10px;
+	margin: auto;
+}
+
+.allCenter9 {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 140px;
+}
+
+
+.logoFooter{
+display: flex;
+justify-content: space-between;
+}
+
+.logoF1 {
+	width: 140px;
+	height: 140px;
+	background-image: url(/img/logoEnd1.png);
+	background-repeat: no-repeat;
+}
+
+.logoF2 {
+	width: 140px;
+	height: 140px;
+	background-image: url(/img/logoEnd2.png);
+	background-repeat: no-repeat;
+}
+
+.logoF3 {
+	width: 140px;
+	height: 140px;
+	background-image: url(/img/logoEnd3.png);
+	background-repeat: no-repeat;
+}
+
+.logoF4 {
+	width: 140px;
+	height: 140px;
+	background-image: url(/img/logoEnd4.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+.footer{
+height: 30px;
+background-color:white;
+text-align: center;
+vertical-align:center;
+}
+
+.footer{
+	padding-top: 15px;
+	text-align: center;
+	vertical-align:;
+	}
