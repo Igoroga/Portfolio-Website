@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head id="targetTop">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +10,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="./css/s.css">
 </head>
-<body>
-<div class="header">
+<body class="darkB">
+<div class="header darkB">
 
 <div class="lefttt">
- <div class="mainLeft">
+ <div class="mainLeft darkA">
 <div class="leftTop">  
   <div class="ava">
   </div>
@@ -137,13 +137,13 @@
 </div>   
 </div>
 
-<div class="center">
-<div class="mainCenter">
-<div class="center1">
+<div class="center darkB">
+<div class="mainCenter darkB">
+<div class="center1" >
  <div class="leftText">
 <article class="myName">I’m Gusakov Igor <span class="spanC">Front-end</span> Developer </article>
 <p class="ppp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.</p>
-<button class="hireMe">HIRE ME</button>
+<button class="hireMe buttonContactJs">HIRE ME</button>
  </div>
  <div class="photoR">
  </div>   
@@ -153,32 +153,32 @@
 <p class="text2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>    
 </div>
 <div class="center3">
-<div class="grid1 gridos">
+<div class="grid1 gridos darkA">
     <div class="svgC1"></div>
     <article class="centerC">Web Development</article>
     <p class="centerCc">Blog, E-commerce</p>
 </div>
-<div class="grid2 gridos">
+<div class="grid2 gridos darkA">
 <div class="svgC2"></div>
 <article class="centerC">UI/UX Design</article>
 <p class="centerCc">Mobile app, website design</p>
 </div> 
-<div class="grid3 gridos">
+<div class="grid3 gridos darkA">
     <div class="svgC3"></div>
     <article class="centerC">Sound Design</article>
     <p class="centerCc">Voice Over, Beat Making</p>
 </div> 
-<div class="grid4 gridos">
+<div class="grid4 gridos darkA">
     <div class="svgC4"></div>
     <article class="centerC">Game Design</article>
     <p class="centerCc">Character Design, Props & Objects</p>
 </div> 
-<div class="grid5 gridos">
+<div class="grid5 gridos darkA">
     <div class="svgC5"></div>
     <article class="centerC">Adobe Skill</article>
     <p class="centerCc">portrait, product photography</p>
 </div> 
-<div class="grid6 gridos">
+<div class="grid6 gridos darkA">
     <article class="centerCC">Advertising</article>
     <p class="centerCcc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. </p>
 <a class="moreM"><article class="svgC6">ORDER NOW ></article></a>
@@ -187,19 +187,19 @@
 </div>
 
 <div class="right">
-<div class="mainRight">
-<div class="theme"></div>
+<div class="mainRight darkA">
+<div class="theme" ></div>
 <div class="home"></div>
 <div class="n2Before before"><p class="n2After after">Services</p></div>
-<div class="n2 hoverY"></div>
+<div class="n2 hoverY" id="scroll-serv"></div>
 <div class="n3Before before"><p class="n3After after">Education</p></div>
-<div class="n3 hoverY"></div>
+<div class="n3 hoverY" id="scroll-Edu"></div>
 <div class="n4Before before"><p class="n4After after">Portfolio</p></div>
-<div class="n4 hoverY"></div>
+<div class="n4 hoverY" id="scroll-Portfolio"></div>
 <div class="n5Before before"><p class="n5After after">Blog</p></div>
-<div class="n5 hoverY"></div>
+<div class="n5 hoverY buttonContactJs"></div>
 <div class="n6Before before"><p class="n6After after">Contact</p></div>
-<div class="n6 hoverY"></div>
+<div class="n6 hoverY buttonContactJs"></div>
 
 </div>
 </div>
@@ -207,10 +207,10 @@
 
 <!-- КОНЕЦ ВЕРХНЕЙ ЧАСТИ ОСНОВЫ ДАЛЬШЕ ИДЕТ ПОРТФОЛИО -->
 
-<main>
+<main class="darkB">
     <div class="allCenter4">
     <div class="centerPortfolio">
-        <article class="article2">Portfolio</article>
+        <article class="article2" id="targetPortfolio">Portfolio</article>
         <p class="text2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>    
         </div>
         <div class="centerGridPortfolio">
@@ -250,11 +250,11 @@
 
       <div class="allCenter5">
         <div class="centerPortfolio">
-            <article class="article2">Price plans</article>
+            <article class="article2 " id="targetServ">Price plans</article>
             <p class="text2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>    
             </div>
             <div class="centerGridPrise">
-            <div class="gridPrise1 gridPrise" >
+            <div class="gridPrise1 gridPrise darkA" >
              <div class="silver">Silver</div>
              <div class="dollarH">$20.00<span class="hourD">/Hour</span></div>
              <div class="textPrice">For most businesses that want to
@@ -277,10 +277,10 @@
                                         <li class="checkMark"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4425 10.5862L17.5751 5.63623L19.0412 7.05023L13.9086 12.0002L19.0412 16.9502L17.5751 18.3642L12.4425 13.4142L7.30991 18.3642L5.84375 16.9502L10.9763 12.0002L5.84375 7.05023L7.30991 5.63623L12.4425 10.5862Z" fill="#767676"/></svg>
                                             <span class="textCheck notextCheck">20 GB Bandwith</span></li>  
              </nav>
-             <div class="orderNow"><div class="orderNoww">ORDER NOW</div>  </div>
+             <div class="orderNow buttonContactJs"><div class="orderNoww">ORDER NOW</div>  </div>
             
             </div>
-            <div class="gridPrise2 gridPrise"  >
+            <div class="gridPrise2 gridPrise darkA"  >
                 <div class="mostPopular">Most Popular</div>
                 <div class="silver2">Gold</div>
              <div class="dollarH">$35.00<span class="hourD">/Hour</span></div>
@@ -304,11 +304,11 @@
                                         <li class="checkMark"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4425 10.5862L17.5751 5.63623L19.0412 7.05023L13.9086 12.0002L19.0412 16.9502L17.5751 18.3642L12.4425 13.4142L7.30991 18.3642L5.84375 16.9502L10.9763 12.0002L5.84375 7.05023L7.30991 5.63623L12.4425 10.5862Z" fill="#767676"/></svg>
                                             <span class="textCheck notextCheck">20 GB Bandwith</span></li>  
              </nav>
-             <div class="orderNow2"><div class="orderNoww2">ORDER NOW</div>  </div>
+             <div class="orderNow2 buttonContactJs"><div class="orderNoww2">ORDER NOW</div>  </div>
             
             
             </div> 
-            <div class="gridPrise3 gridPrise"  >
+            <div class="gridPrise3 gridPrise darkA"  >
 
                 <div class="silver">Dimond</div>
              <div class="dollarH">$50.00<span class="hourD">/Hour</span></div>
@@ -332,7 +332,7 @@
                                         <li class="checkMark"><svg width="25" height="24" view0 0 25 24Box="" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.3688 15.172L19.8998 5.979L21.367 7.393L10.3688 18L3.77002 11.636L5.23618 10.222L10.3688 15.172Z" fill="#FFB400"/></svg>
                                             <span class="textCheck">20 GB Bandwith</span></li>  
              </nav>
-             <div class="orderNow"><div class="orderNoww">ORDER NOW</div>  </div>
+             <div class="orderNow buttonContactJs"><div class="orderNoww">ORDER NOW</div>  </div>
             
                 
             </div> 
@@ -346,7 +346,7 @@
         <p class="text2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>    
         </div>
         <div class="centerGridRec">
-        <div class="gridPrise1 gridRec"  >
+        <div class="gridPrise1 gridRec darkA"  >
         <div class="starR"><svg width="130" height="18" viewBox="0 0 130 18" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M9 13.2448L12.9107 12.2343L14.5446 17.3684L9 13.2448ZM18 6.60873H11.1161L9 0L6.88393 6.60873H0L5.57143 10.7051L3.45535 17.3138L9.02679 13.2175L12.4554 10.7051L18 6.60873Z" fill="#FFB400"/>
             <path d="M37 13.2448L40.9107 12.2343L42.5446 17.3684L37 13.2448ZM46 6.60873H39.1161L37 0L34.8839 6.60873H28L33.5714 10.7051L31.4554 17.3138L37.0268 13.2175L40.4554 10.7051L46 6.60873Z" fill="#FFB400"/>
@@ -363,7 +363,7 @@
         </div>
         </div>
 
-       <div class="gridPrise1 gridRec"  >
+       <div class="gridPrise1 gridRec darkA"  >
         <div class="starR"><svg width="130" height="18" viewBox="0 0 130 18" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M9 13.2448L12.9107 12.2343L14.5446 17.3684L9 13.2448ZM18 6.60873H11.1161L9 0L6.88393 6.60873H0L5.57143 10.7051L3.45535 17.3138L9.02679 13.2175L12.4554 10.7051L18 6.60873Z" fill="#FFB400"/>
             <path d="M37 13.2448L40.9107 12.2343L42.5446 17.3684L37 13.2448ZM46 6.60873H39.1161L37 0L34.8839 6.60873H28L33.5714 10.7051L31.4554 17.3138L37.0268 13.2175L40.4554 10.7051L46 6.60873Z" fill="#FFB400"/>
@@ -380,7 +380,7 @@
         </div>
         </div>
 
-       <div class="gridPrise1 gridRec" >
+       <div class="gridPrise1 gridRec darkA" >
         <div class="starR"><svg width="130" height="18" viewBox="0 0 130 18" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M9 13.2448L12.9107 12.2343L14.5446 17.3684L9 13.2448ZM18 6.60873H11.1161L9 0L6.88393 6.60873H0L5.57143 10.7051L3.45535 17.3138L9.02679 13.2175L12.4554 10.7051L18 6.60873Z" fill="#FFB400"/>
             <path d="M37 13.2448L40.9107 12.2343L42.5446 17.3684L37 13.2448ZM46 6.60873H39.1161L37 0L34.8839 6.60873H28L33.5714 10.7051L31.4554 17.3138L37.0268 13.2175L40.4554 10.7051L46 6.60873Z" fill="#FFB400"/>
@@ -405,11 +405,11 @@
         </div>
         <div class="allCenter7">
             <div class="centerEducation">
-   <article class="article2">Recommendations</article>
+   <article class="article2" id="targetEdu">My Education</article>
    <p class="text2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>    
    </div>
    <div class="centerGridEdu">
-   <div class="GridEdu1" >
+   <div class="GridEdu1 darkA" >
 <div class="edu1">
 <div class="blockEdu1">
 <div class="nameEdu">University of Toronto</div>
@@ -446,8 +446,8 @@
    <div class="allCenter8">
     <div class="centerContact">
 <div class="boxContact1">
-<article class="article8">Leave us your info</article>
-<div class="conInf" style="width: 570px; height: 665px;">
+<article class="article8" id="target-element">Leave us your info</article>
+<div class="conInf darkA" style="width: 570px; height: 665px;">
     <form>
         <div class="inDiv1 inDiv">
       <div class="labelI"><p class="lab">Your Full Name (Required):</p></div></div>
@@ -467,19 +467,19 @@
 </div>
 <div class="boxContact2">
     <article class="article8">Contact information</article>
-    <div class="blockRightContact">
+    <div class="blockRightContact darkA">
  <div class="iconContact"></div>
  <div class="textConatact1 textConatact">Country: <span class="rightContact1 rightContact">Kazahstan</span></div>
 <div class="textConatact2 textConatact">City: <span class="rightContact2 rightContact">Alma-Ata</span></div>
 <div class="textConatact3 textConatact">Streat: <span class="rightContact3 rightContact">Center</span></div>
     </div>
-    <div class="blockRightContact1 blockRightContact">
+    <div class="blockRightContact1 blockRightContact darkA">
         <div class="iconContact2"></div>
         <div class="textConatact1 textConatact">Country: <span class="rightContact1 rightContact">Kazahstan</span></div>
        <div class="textConatact2 textConatact">City: <span class="rightContact2 rightContact">Alma-Ata</span></div>
        <div class="textConatact3 textConatact">Streat: <span class="rightContact3 rightContact">Center</span></div>
            </div>
-           <div class="blockRightContact1 blockRightContact">
+           <div class="blockRightContact1 blockRightContact darkA">
             <div class="iconContact"></div>
             <div class="textConatact1 textConatact">Country: <span class="rightContact1 rightContact">Kazahstan</span></div>
            <div class="textConatact2 textConatact">City: <span class="rightContact2 rightContact">Alma-Ata</span></div>
@@ -507,8 +507,8 @@
 </div>
 <!-- <div class="gifAn"></div> -->
 </main>
-<div class="footer">
-   <div class="footerText">2023 Created By Igoroja</div> 
+<div class="footer darkA">
+   <div class="footerText"><div class="foterr">2023 Created By Igoroja</div></div> 
 </div>
 <script src="popup.js"></script>
 <script src="jss.js"></script>

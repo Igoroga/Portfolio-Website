@@ -111,15 +111,16 @@ section {
 	display: flex;
 	justify-content: space-between;
 	background-color: #F4F4F2;
+	
 }
 
 body {
 	background-color: #F4F4F2;
-
-	max-width: 1900px;
+	max-width: 1920px;
 	min-width: 1000x;
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 
 #scroll-up-button {
@@ -213,6 +214,7 @@ button {
 	width: 305px;
 	height: 1315px;
 	right: auto;
+	transition: all 2s;
 }
 
 .ava {
@@ -397,6 +399,7 @@ button {
 	margin-top: 27px;
 	width: 220px;
 	height: 2px;
+	transition: all 2s;
 	background-color: #ececf0;
 }
 
@@ -406,6 +409,7 @@ button {
 	margin-top: 16px;
 	width: 220px;
 	height: 2px;
+	transition: all 2s;
 	background-color: #ececf0;
 }
 
@@ -433,12 +437,14 @@ button {
 	margin-top: 27px;
 	width: 220px;
 	height: 2px;
+	transition: all 2s;
 	background-color: #ececf0;
 }
 
 
 /* right ------------------------------------------------------- */
 .mainRight {
+	transition: all 2s;
 	display: block;
 	background-color: #fff;
 	width: 108px;
@@ -721,6 +727,7 @@ button {
 }
 
 .center1 {
+	
 	display: flex;
 	/* background-color: aqua; */
 	height: 470px;
@@ -1379,6 +1386,7 @@ main {
 .textGreatR {
 	margin-top: 15px;
 	margin-left: 25px;
+	width: 270px;
 	Font-family: Inter;
 	font-size: 15px;
 	font-weight: 400;
@@ -1786,6 +1794,27 @@ vertical-align:center;
 
 .footer{
 	padding-top: 15px;
-	text-align: center;
-	vertical-align:;
+	
+	Font-family: Inter;
+	Font-style: Medium;
+	Font-size: 15px;
+
+	}
+
+	.foterr{
+	margin-left: -1600px;	
+	}	
+
+
+	/* ------------------------------------------------------------
+	DARAK theme
+	------------------------------------------------------------ */
+
+	.dark1{
+		transition: all 2s;
+		background-color:rgba(49, 55, 82, 0.829);
+	}
+
+	.dark2{
+		background-color:rgb(136, 142, 161);
 	}
